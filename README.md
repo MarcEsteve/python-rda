@@ -1,41 +1,47 @@
-# 📌 Curso de RPA con Python
+# Python + RDA
 
-## 📝 Descripción
-Este repositorio contiene materiales y ejemplos prácticos para aprender **RPA (Robotic Process Automation) con Python**. Aprenderás a automatizar tareas repetitivas en aplicaciones web, escritorio y archivos mediante librerías especializadas.
+Este repositorio contiene materiales para el aprendizaje de Python básico en el contexto del curso **Python + RDA**.
 
-## 📌 Contenido del Curso
-1. **Introducción a RPA y Python**
-   - ¿Qué es RPA?
-   - Casos de uso en la industria
-   - Instalación del entorno de desarrollo
+## 📌 Contenido
 
-2. **Automatización de Navegadores con Selenium**
-   - Instalación de Selenium y WebDriver
-   - Interacción con formularios y botones
-   - Web Scraping para extracción de datos
+### 1️⃣ Introducción a Python
+- `01_introduccion.ipynb`: Conceptos básicos de Python, sintaxis y primeros pasos.
+- `02_variables_y_tipos.ipynb`: Variables, tipos de datos y operadores.
+- `03_estructuras_de_control.ipynb`: Condicionales y bucles (`if`, `for`, `while`).
 
-3. **Automatización de Tareas con PyAutoGUI**
-   - Control de mouse y teclado
-   - Captura de pantalla y detección de imágenes
-   - Scripts para manejar ventanas y menús
+### 2️⃣ Funciones y Colecciones
+- `04_funciones.ipynb`: Definición y uso de funciones en Python.
+- `05_listas_y_tuplas.ipynb`: Trabajo con listas y tuplas.
+- `06_diccionarios_y_conjuntos.ipynb`: Uso de diccionarios y conjuntos.
 
-4. **Automatización de Archivos y Datos**
-   - Manejo de archivos CSV y Excel con `pandas` y `openpyxl`
-   - Descarga y procesamiento de documentos
-   - Generación de informes automatizados
+### 3️⃣ Manipulación de Datos
+- `07_archivos.ipynb`: Lectura y escritura de archivos.
+- `08_numpy.ipynb`: Introducción a NumPy para manipulación de datos numéricos.
+- `09_pandas.ipynb`: Fundamentos de Pandas para análisis de datos.
 
-5. **Automatización de Correo Electrónico**
-   - Envío automático de correos con `smtplib`
-   - Lectura y filtrado de emails con `imaplib`
-   - Adjuntar archivos y reportes automáticamente
-
-6. **Monitoreo de Cambios y Tareas Programadas**
-   - Uso de `watchdog` para detectar cambios en archivos
-   - Automatización con `schedule` para ejecución periódica
-   - Creación de scripts ejecutables
-
-## 🚀 Instalación
-Asegúrate de tener **Python 3.8+** instalado. Luego, instala las dependencias necesarias con:
+## 🚀 Requisitos
+Para seguir este curso, necesitas instalar Python 3 y las siguientes librerías:
 
 ```bash
-pip install -r requirements.txt
+pip install numpy pandas matplotlib
+```
+
+## ⚡ Uso
+Clona el repositorio y ejecuta los notebooks con Jupyter Notebook o Jupyter Lab:
+
+```bash
+git clone https://github.com/MarcEsteve/python-rda.git
+cd python-rda
+jupyter notebook
+```
+
+## 📚 Recursos adicionales
+- [Documentación oficial de Python](https://docs.python.org/3/)
+- [NumPy](https://numpy.org/)
+- [Pandas](https://pandas.pydata.org/)
+
+## 📩 Contacto
+Si tienes dudas o sugerencias, puedes abrir un issue en el repositorio.
+
+---
+¡Feliz aprendizaje! 🚀
