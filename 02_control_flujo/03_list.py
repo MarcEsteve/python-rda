@@ -5,7 +5,7 @@
 ###
 
 import os
-os.system("clear")
+os.system("cls")
 
 # Creación de listas
 print("\nCrear listas")
@@ -39,6 +39,8 @@ print(lista1[1:4]) # [2, 3, 4]
 print(lista1[:3]) # [1, 2, 3]
 print(lista1[3:]) # [4, 5]
 print(lista1[:]) # [1, 2, 3, 4, 5]
+
+
 
 # HAY MÁS MAGIA
 lista1 = [1, 2, 3, 4, 5, 6, 7, 8]

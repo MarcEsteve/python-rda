@@ -5,7 +5,7 @@
 ###
 
 import os
-os.system("clear")
+os.system("cls") # Windows
 
 # Los booleanos representan valores de verdad: True o False.
 print("\nValores booleanos básicos:")
