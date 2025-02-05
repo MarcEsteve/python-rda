@@ -9,6 +9,7 @@ print(type(10))  # Número entero positivo
 print(type(0))  # El número cero también es un entero
 print(type(-5))  # Número entero negativo
 print(type(7238424723784278934789239874))  # Python permite enteros de gran tamaño
+# print(7238424723784278934789239874)
 
 print("float:")  # Números decimales (de punto flotante)
 print(type(3.14))  # Número con punto decimal
