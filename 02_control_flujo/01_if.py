@@ -80,7 +80,7 @@ else:
 es_fin_de_semana = False
 # JavaScript -> !
 if not es_fin_de_semana:
-  print("¡midu, venga que hay que streamear!")
+  print("marc, venga que hay que impartir clase!")
 
 # Podemos anidar condicionales, uno dentro del otro
 # para determinar múltiples condiciones aunque
