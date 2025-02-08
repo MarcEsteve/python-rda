@@ -1,6 +1,9 @@
 ###
 # 03 - casting de types
-# Transformar un tipo de un valor a otro
+# Este archivo de Python demuestra cómo realizar la conversión de tipos (casting) en Python.
+# La conversión de tipos es el proceso de convertir un valor de un tipo de dato a otro.
+# Esto es útil cuando se necesita realizar operaciones entre diferentes tipos de datos.
+# A continuación, se muestran ejemplos de cómo convertir entre tipos de datos como enteros, flotantes y cadenas.
 ###
 
 print("Conversión de tipos")
