@@ -24,6 +24,7 @@ lista1.remove('@') # Eliminar la primera aparición de la cadena de texto @
 print(lista1)
 
 ultimo = lista1.pop() # Eliminar el último elemento de la lista y además te lo devuelve
+# lista1.pop(-1) # También se puede hacer así
 print(ultimo)
 print(lista1)
 

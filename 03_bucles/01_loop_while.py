@@ -41,7 +41,7 @@ while contador < 5:
   print(contador)
   contador += 1
 else:
-  print("El bucle ha terminado")
+  print("El bucle ha terminado, y ha recorrido todos los números")
 
 # else, esta condición cuando se ejecuta?
 print("\n Bucle while con else:")
