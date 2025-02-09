@@ -61,9 +61,9 @@ def describir_persona(nombre: str, edad: int, sexo: str):
   print(f"Soy {nombre}, tengo {edad} años y me identifico como {sexo}")
 
 # parámetros son posicionales
-describir_persona(1, 25, "gato")
-describir_persona("marc", 25, "gato")
-describir_persona("hombre", "marc", 39)
+# describir_persona(1, 25, "gato")
+# describir_persona("marc", 25, "gato")
+# describir_persona("hombre", "marc", 39)
 
 # Argumentos por clave
 # parámetros nombrados
@@ -99,3 +99,4 @@ describir_persona("hombre", "marc", 39)
 # y convertirlos en funciones
 # e intentar utilizar todos los casos y conceptos
 # que hemos visto hasta ahora
+# rangos, listas, bucles, etc.
