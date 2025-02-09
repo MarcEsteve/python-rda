@@ -11,7 +11,7 @@ for fruta in frutas:
   print(fruta)
 
 # Iterar sobre cualquier cosa que sea iterable
-cadena = "midudev"
+cadena = "marc"
 for caracter in cadena:
   print(caracter)
 
@@ -27,6 +27,8 @@ numeros = [1, 2, 3]
 for letra in letras:
   for numero in numeros:
     print(f"{letra}{numero}")
+
+# Revisar Python tutor: http://pythontutor.com/visualize.html#mode=edit
 
 
 # break
