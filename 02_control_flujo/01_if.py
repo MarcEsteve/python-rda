@@ -24,7 +24,7 @@ if edad >= 18:
 edad = 15
 if edad >= 18:
   print("Eres mayor de edad")
-  print("¡Felicidades!")
+print("¡Felicidades!")
 
 # Podemos usar el comando "else" para ejecutar un bloque de código
 # si no se cumple la condición anterior del if

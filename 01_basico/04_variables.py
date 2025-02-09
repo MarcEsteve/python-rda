@@ -65,5 +65,8 @@ MI_CONSTANTE = 3.14 # UPPER_CASE -> constantes
 is_user_logged_in: bool = True # Indica que la variable es un booleano
 print(is_user_logged_in)
 
+# Activar "typecheck" en configuración de VSCode para ver advertencias de tipos
+# Ctrl + , para ir a "Settings" y buscar "typecheck"
+
 name: str = "marc" # Indica que la variable es una cadena de texto
 print(name)

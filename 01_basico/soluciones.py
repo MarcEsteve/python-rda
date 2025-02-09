@@ -59,7 +59,7 @@ print("Crea variables para tu nombre, edad y altura.")
 print("Usa f-strings para imprimir una presentación.")
 
 # Solución:
-nombre = "midudev"
+nombre = "marc"
 edad = 18
 altura = 1.90
 
