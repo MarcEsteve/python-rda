@@ -23,7 +23,7 @@ print(persona["calificaciones"][2])
 print(persona["socials"]["twitterx"])
 
 # cambiar valores al acceder
-persona["nombre"] = "madeval"
+persona["nombre"] = "esteve"
 persona["calificaciones"][2] = 10
 
 # eliminar completamente una propiedad
