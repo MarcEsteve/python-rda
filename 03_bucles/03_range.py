@@ -8,7 +8,7 @@ os.system("cls")
 
 print("\nrange():")
 
-# Generado una secuencia de números del 0 al 9
+# Genera una secuencia de números del 0 al 9
 for num in range(10):
   print(num)
 
@@ -35,6 +35,11 @@ for num in range(10):
 
 # seria para hacerlo cinco veces
 # for _ in range(5):
+#   print("hacer cinco veces algo")
+
+# Mucho mejor que si lo hicieramos con un while
+# num = 0
+# while num < 5:
 #   print("hacer cinco veces algo")
 
 ###
