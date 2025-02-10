@@ -16,13 +16,19 @@ Este repositorio contiene materiales para el aprendizaje de Python básico en el
 ## 🚀 Requisitos
 Para seguir este curso, necesitas instalar Python 3
 
+Para saber tu versión instalada de Python
+
+```bash
+python --version
+python3 --version
+```
+
 ## ⚡ Uso
 Clona el repositorio y ejecuta los notebooks con Jupyter Notebook o en Visual Studio Code:
 
 ```bash
 git clone https://github.com/MarcEsteve/python-rda.git
 cd python-rda
-jupyter notebook
 ```
 
 ## 📚 Recursos adicionales
