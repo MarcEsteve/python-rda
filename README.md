@@ -16,7 +16,7 @@ Este repositorio contiene materiales para el aprendizaje de Python básico en el
 ## 🚀 Requisitos
 Para seguir este curso, necesitas instalar Python 3
 
-Para saber tu versión instalada de Python
+Para saber tu versión instalada de Python en el CMD o Terminal:
 
 ```bash
 python --version
