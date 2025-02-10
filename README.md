@@ -1,33 +1,23 @@
-# Python + RDA
+# Python para Automatización de Tareas
 
-Este repositorio contiene materiales para el aprendizaje de Python básico en el contexto del curso **Python + RDA**.
+Este repositorio contiene materiales para el aprendizaje de Python básico en el contexto del curso **Python -> Automatización de Tareas**.
 
 ## 📌 Contenido
 
-### 1️⃣ Introducción a Python
-- `01_introduccion.ipynb`: Conceptos básicos de Python, sintaxis y primeros pasos.
-- `02_variables_y_tipos.ipynb`: Variables, tipos de datos y operadores.
-- `03_estructuras_de_control.ipynb`: Condicionales y bucles (`if`, `for`, `while`).
+### Introducción a Python
+- `01_basico`: Conceptos básicos de Python: print, types, cast, vars, inputs.
+- `02_control_flujo`: Condicionales if, booleanos, listas y sus métodos.
+- `03_bucles`: (`for`, `while`) + range, dictionaries y Funciones.
 
-### 2️⃣ Funciones y Colecciones
-- `04_funciones.ipynb`: Definición y uso de funciones en Python.
-- `05_listas_y_tuplas.ipynb`: Trabajo con listas y tuplas.
-- `06_diccionarios_y_conjuntos.ipynb`: Uso de diccionarios y conjuntos.
+### Identificación de tareas repetitivas
+- `04_tareas_rep`: Crear archivos de ejemplo para cambiarles el nombre correcto.
 
-### 3️⃣ Manipulación de Datos
-- `07_archivos.ipynb`: Lectura y escritura de archivos.
-- `08_numpy.ipynb`: Introducción a NumPy para manipulación de datos numéricos.
-- `09_pandas.ipynb`: Fundamentos de Pandas para análisis de datos.
 
 ## 🚀 Requisitos
-Para seguir este curso, necesitas instalar Python 3 y las siguientes librerías:
-
-```bash
-pip install numpy pandas matplotlib
-```
+Para seguir este curso, necesitas instalar Python 3
 
 ## ⚡ Uso
-Clona el repositorio y ejecuta los notebooks con Jupyter Notebook o Jupyter Lab:
+Clona el repositorio y ejecuta los notebooks con Jupyter Notebook o en Visual Studio Code:
 
 ```bash
 git clone https://github.com/MarcEsteve/python-rda.git
@@ -37,8 +27,7 @@ jupyter notebook
 
 ## 📚 Recursos adicionales
 - [Documentación oficial de Python](https://docs.python.org/3/)
-- [NumPy](https://numpy.org/)
-- [Pandas](https://pandas.pydata.org/)
+
 
 ## 📩 Contacto
 Si tienes dudas o sugerencias, puedes abrir un issue en el repositorio.
