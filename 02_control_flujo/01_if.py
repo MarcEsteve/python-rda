@@ -11,48 +11,48 @@ import os
 # en este caso lo hacemos para limpiar la pantalla
 os.system("cls") # Windows
 
-print("\n Sentencia simple condicional")
+# print("\n Sentencia simple condicional")
 
 # Podemos usar la palabra clave "if" para ejecutar un bloque de código
 # solo si se cumple una condición.
-edad = 18
-if edad >= 18:
-  print("Eres mayor de edad")
-  print("¡Felicidades!")
+# edad = 18
+# if edad >= 18:
+#   print("Eres mayor de edad")
+#   print("¡Felicidades!")
 
 # Si no se cumple la condición, no se ejecuta el bloque de código
-edad = 15
-if edad >= 18:
-  print("Eres mayor de edad")
-print("¡Felicidades!")
+# edad = 15
+# if edad >= 18:
+#   print("Eres mayor de edad")
+# print("¡Felicidades!")
 
 # Podemos usar el comando "else" para ejecutar un bloque de código
 # si no se cumple la condición anterior del if
-print("\n Sentencia condicional con else")
-edad = 15
-if edad >= 18:
-  print("Eres mayor de edad")
-else:
-  print("Eres menor de edad")
+# print("\n Sentencia condicional con else")
+# edad = 15
+# if edad >= 18:
+#   print("Eres mayor de edad")
+# else:
+#   print("Eres menor de edad")
 
-print("\n Sentencia condicional con elif")
-nota = 5
+# print("\n Sentencia condicional con elif")
+# nota = 10
 
 # Además de usar "if" y "else", podemos usar "elif" para determinar
 # múltiples condiciones, ten en cuenta que sólo se ejecutará el primer bloque
 # de código que cumpla la condición (o la del else, si está presente)
-if nota >= 9:
-  print("¡Sobresaliente!")
-elif nota >= 7:
-  print("Notable!")
-elif nota >= 5:
-  print("¡Aprobado!")
-else:
-  print("¡No está calificado!")
+# if nota >= 9:
+#   print("¡Sobresaliente!")
+# elif nota >= 7:
+#   print("Notable!")
+# elif nota >= 5:
+#   print("¡Aprobado!")
+# else:
+#   print("¡No está calificado!")
 
-print("\n Condiciones múltiples")
-edad = 16
-tiene_carnet = True
+# print("\n Condiciones múltiples")
+# edad = 16
+# tiene_carnet = True
 
 # Los operadores lógicos en Python son:
 # and: True si ambos operandos son verdaderos
@@ -63,37 +63,37 @@ tiene_carnet = True
 
 # En el caso que seas mayor de edad y tengas carnet...
 # entonces podrás conducir
-if edad >= 18 and tiene_carnet:
-  print("Puedes conducir 🚗")
-else:
-  print("POLICIA 🚔!!!1!!!")
+# if edad >= 18 and tiene_carnet:
+#   print("Puedes conducir 🚗")
+# else:
+#   print("POLICIA 🚔!!!1!!!")
 
 # En un pueblo de Isla Margarita son más laxos y
 # te dejan conducir si eres mayor de edad O tienes carnet
-if edad >= 18 or tiene_carnet:
-  print("Puedes conducir en la Isla Margarita 🚗")
-else:
-  print("Paga al policía y te deja conducir!!!")
+# if edad >= 18 or tiene_carnet:
+#   print("Puedes conducir en la Isla Margarita 🚗")
+# else:
+#   print("Paga al policía y te deja conducir!!!")
 
 # También tenemos el operador lógico "not"
 # que nos permite negar una condición
-es_fin_de_semana = False
+# es_fin_de_semana = False
 # JavaScript -> !
-if not es_fin_de_semana:
-  print("marc, venga que hay que impartir clase!")
+# if not es_fin_de_semana:
+#   print("marc, venga que hay que impartir clase!")
 
 # Podemos anidar condicionales, uno dentro del otro
 # para determinar múltiples condiciones aunque
 # siempre intentaremos evitar esto para simplificar
 print("\n Anidar condicionales")
 edad = 20
-tiene_dinero = True
+tiene_dinero = False
 
 if edad >= 18:
   if tiene_dinero:
     print("Puedes ir a la discoteca")
   else:
-    print("Quédate en casa")
+    print("Puedes entrar a la disco pero no comprar nada")
 else:
   print("No puedes entrar a la disco")
 
@@ -133,7 +133,7 @@ if es_el_tres:
 # las ternarias, es una forma concisa de un if-else en una línea de código
 print("\nLa condición ternaria:")
 # [código si cumple la condición] if [condicion] else [codigo si no cumple]
-
+# En JavaScript sería: [condicion] ? [código si cumple] : [código si no cumple]
 edad = 17
 mensaje = "Es mayor de edad" if edad >= 18 else "Es menor de edad"
 print(mensaje)

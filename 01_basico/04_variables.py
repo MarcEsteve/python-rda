@@ -4,6 +4,9 @@
 # Python es un lenguaje de tipado dinámico y de tipado fuerte.
 ###
 
+import os
+os.system("cls")
+
 # Para asignar una variable solo hace falta poner el nombre de la variable y asignarle un valor
 my_name = "marc"
 print(my_name)  # Imprime el valor de la variable my_name
@@ -45,6 +48,9 @@ minombredevariable = "no-recomendado" # todojunto
 mi_nombre_de_variable_123 = "ok"
 
 MI_CONSTANTE = 3.14 # UPPER_CASE -> constantes
+
+MI_CONSTANTE = 3 # Python no tiene constantes, pero se usa esta convención
+
 
 # Nombres NO válidos de variables (esto generaría errores)
 # 123123_variable = "ko"  # ❌ No puede comenzar con un número
