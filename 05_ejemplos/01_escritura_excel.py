@@ -1,4 +1,5 @@
 import openpyxl
+# pip install openpyxl
 # Cargar un libro de Excel
 libro =openpyxl.load_workbook("C:/Users/artha/OneDrive/Escritorio/AKKODIS/python-rda/05_ejemplos/distritos-ejemplo.xlsx")
 libro.sheetnames
