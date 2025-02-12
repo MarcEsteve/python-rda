@@ -16,8 +16,8 @@ def nombre_de_la_funcion(parametro1, parametro2, ...):
 """
 
 # # Ejemplo de una función para imprimir algo en consola
-def saludar():
-  print("¡Hola!")
+# def saludar():
+#   print("¡Hola!")
 
 # saludar()
 
@@ -41,16 +41,16 @@ def saludar():
 # print(result)
 
 # # Documentar las funciones con docstring
-def restar(a, b):
-  """Resta dos números y devuelve el resultado"""
-  return a - b
+# def restar(a, b):
+#   """Resta dos números y devuelve el resultado"""
+#   return a - b
 # En Python puedes acceder al docstring de una función con el atributo __doc__
 # print(restar.__doc__)
 # Incluso help(restar) te mostrará el docstring de la función
 # help(restar)
 
 # parámetros por defecto
-# def multiplicar(a, b = 2):
+# def multiplicar(a, b = 5):
 #   return a * b
 
 # print(multiplicar(2))
@@ -61,9 +61,11 @@ def describir_persona(nombre: str, edad: int, sexo: str):
   print(f"Soy {nombre}, tengo {edad} años y me identifico como {sexo}")
 
 # parámetros son posicionales
-# describir_persona(1, 25, "gato")
-# describir_persona("marc", 25, "gato")
-# describir_persona("hombre", "marc", 39)
+describir_persona(1, 25, "gato")
+describir_persona("marc", 25, "gato")
+describir_persona("hombre", "marc", 39)
+
+# SEGUIMOS POR AQUI EL 17 de Febrero
 
 # Argumentos por clave
 # parámetros nombrados

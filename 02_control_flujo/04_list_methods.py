@@ -7,7 +7,7 @@ import os
 os.system("clear")
 
 lista1 = ['a', 'b', 'c', 'd']
-
+print(lista1)
 # Añadir o insertar elementos a la lista
 
 lista1.append('e') # Añade un elemento al final
@@ -52,6 +52,7 @@ print(numbers)
 print('Ordenar listas creando una nueva lista')
 numbers = [3, 10, 2, 8, 99, 101]
 sorted_numbers = sorted(numbers)
+print(numbers)
 print(sorted_numbers)
 
 print("Ordenar una lista de cadenas de texto (todo minúscula)")

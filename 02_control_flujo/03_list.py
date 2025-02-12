@@ -70,6 +70,8 @@ print(lista1)
 # Recuperar longitud de una lista
 print("Longitud de la lista", len(lista1))
 
+# En JavaScript, la longitud de un array se obtiene con .length
+
 ###
 # EJERCICOS
 ###
