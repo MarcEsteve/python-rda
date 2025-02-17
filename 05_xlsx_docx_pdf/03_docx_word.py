@@ -46,3 +46,17 @@ p.runs[1].bold = True #Negrita, para cursiva seria italic y underline para subra
 p.runs[2].text = 'otro texto' #Cambiamos el texto del segundo run del párrafo p
 
 d.save(r'C:/Users/artha/OneDrive/Escritorio/AKKODIS/python-rda/05_xlsx_docx_pdf/tecnologias_emergentes_v2.docx') #Guardamos el documento
+
+#Creación de ficheros
+
+nuevo_d = docx.Document() #Creamos un documento en blanco
+# Añadimos un párrafo
+nuevo_d.add_paragraph('Este es el primer párrafo de mi documento')
+nuevo_d.add_paragraph('Este es el segundo párrafo de mi documento')
+nuevo_d.save(r'C:/Users/artha/OneDrive/Escritorio/AKKODIS/python-rda/05_xlsx_docx_pdf/nuevo_documento.docx') #Guardamos el documento
+
+# Añadir nuevos segmentos
+p = nuevo_d.paragraphs[0] #Cogemos el primer párrafo
+p.add_run('Este es un nuevo segmento añadido al primer párrafo') #Añadimos un nuevo segmento al párrafo
+p.runs[1].underline = True #Subrayamos el nuevo segmento
+nuevo_d.save(r'C:/Users/artha/OneDrive/Escritorio/AKKODIS/python-rda/05_xlsx_docx_pdf/nuevo_documento.docx') #Guardamos el documento
