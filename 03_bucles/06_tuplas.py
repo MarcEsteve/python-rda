@@ -1,10 +1,10 @@
-# 📌 Ejemplos de Tuplas en Python
-
 import os
 os.system("cls")
 
+# 📌 Ejemplos de Tuplas en Python
+
 # 1️⃣ Creación de una tupla
-mi_tupla = (1, 2, 3, 2, 2)
+mi_tupla = (1, 2, 3, 2, 4, 2)
 print("Tupla original:", mi_tupla)
 
 # 2️⃣ Intentar modificar un valor en la tupla (esto dará error)
@@ -24,9 +24,14 @@ print("Nueva tupla con valores modificados:", mi_tupla)
 print("Primer elemento:", mi_tupla[0])
 print("Último elemento:", mi_tupla[-1])
 
-# 6️⃣ Longitud de una tupla con propiedad len()
+# 6️⃣ Longitud de una tupla
 print("Número de elementos en la tupla:", len(mi_tupla))
 
-# 7️⃣ Métodos disponibles en una tupla count() e index()
-print("Cantidad de veces que aparece el 2 en la tupla:", mi_tupla.count(2))
-print("Índice de la primera aparición del 2 en la tupla:", mi_tupla.index(2))
+# 7️⃣ Métodos disponibles en una tupla
+print("Número de veces que aparece el 2 en la tupla:", mi_tupla.count(2))  # Cuenta cuántas veces aparece un valor
+print("Índice de la primera aparición del 4:", mi_tupla.index(4))  # Devuelve el índice de la primera aparición de un valor
+
+# 📝 Ejercicios sobre Tuplas
+# 1️⃣ Crea una tupla con los nombres de 5 ciudades y muestra la segunda y la penúltima ciudad.
+# 2️⃣ Dada una tupla con números enteros, cuenta cuántas veces aparece el número 3 en la tupla.
+# 3️⃣ Crea una función que reciba una tupla con números y devuelva una nueva tupla con los números ordenados de menor a mayor.
