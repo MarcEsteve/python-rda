@@ -4,6 +4,9 @@
 # Sirven para almacenar datos relacionados.
 ###
 
+import os
+os.system("cls")
+
 # ejemplo tipico de diccionario
 persona = {
   "nombre": "marc",
