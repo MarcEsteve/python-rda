@@ -6,6 +6,7 @@ os.system("cls")
 # 1️⃣ Creación de una tupla
 mi_tupla = (1, 2, 3, 2, 4, 2)
 print("Tupla original:", mi_tupla)
+# mi_lista = [1, 2, 3, 2, 4, 2]
 
 # 2️⃣ Intentar modificar un valor en la tupla (esto dará error)
 # mi_tupla[0] = 5  # ❌ TypeError: 'tuple' object does not support item assignment

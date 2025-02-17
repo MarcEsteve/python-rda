@@ -21,26 +21,26 @@ persona = {
 }
 
 # para acceder a los valores
-print(persona["nombre"])
-print(persona["calificaciones"][2])
-print(persona["socials"]["twitterx"])
+# print(persona["nombre"])
+# print(persona["calificaciones"][2])
+# print(persona["socials"]["twitterx"])
 
 # cambiar valores al acceder
-persona["nombre"] = "esteve"
-persona["calificaciones"][2] = 10
+# persona["nombre"] = "esteve"
+# persona["calificaciones"][2] = 10
 
 # eliminar completamente una propiedad
-del persona["edad"]
+# del persona["edad"]
 # print(persona)
 
-es_estudiante = persona.pop("es_estudiante") 
-print(f"es_estudiante: {es_estudiante}")
-print(persona)
+# es_estudiante = persona.pop("es_estudiante") 
+# print(f"es_estudiante: {es_estudiante}")
+# print(persona)
 
 # sobreescribir un diccionario con otro diccionario
 a = { "name": "marc", "age": 25 }
 b = { "name": "daniel", "es_estudiante": True }
-
+print(a)
 a.update(b)
 print(a)
 
@@ -51,6 +51,7 @@ print("nombre" in persona) # True
 # obtener todas las claves
 print("\nkeys:")
 print(persona.keys())
+print(persona["socials"].keys())
 
 # obtener todas los valores
 print("\nvalues:")
