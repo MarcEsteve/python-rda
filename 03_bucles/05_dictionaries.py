@@ -6,7 +6,7 @@
 
 # ejemplo tipico de diccionario
 persona = {
-  "nombre": "midudev",
+  "nombre": "marc",
   "edad": 25,
   "es_estudiante": True,
   "calificaciones": [7, 8, 9],
