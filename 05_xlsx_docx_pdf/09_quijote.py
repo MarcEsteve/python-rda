@@ -24,7 +24,7 @@ for i, imagen in enumerate(imagenes):
     imagen.save(ruta_imagen, "PNG")  # Guardar imagen temporalmente
     
     # Aplicar OCR con Tesseract
-    texto = pytesseract.image_to_string(imagen, lang="eng")  # OCR en español
+    texto = pytesseract.image_to_string(imagen, lang="eng")  # OCR en inglés
     texto_extraido += f"\n--- Página {i + 1} ---\n" + texto
 
 # 📌 Guardar el texto extraído en un archivo

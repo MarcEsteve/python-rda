@@ -1,6 +1,6 @@
-import glob
-import os
-import PyPDF2  # Asegúrate de instalarlo con pip install PyPDF2
+import glob # Módulo para buscar archivos en una carpeta
+import os # Módulo para manipular archivos y carpetas
+import PyPDF2  # Asegúrate de instalarlo con "pip install PyPDF2"
 
 # 📌 Obtener la lista de archivos PDF en la carpeta de Inputs
 ruta_inputs = "C:/Users/artha/OneDrive/Escritorio/AKKODIS/python-rda/05_xlsx_docx_pdf/Inputs"
