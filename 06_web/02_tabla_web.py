@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd # Importamos la librería pandas y sirve para trabajar con datos
 import requests # Importamos la librería requests que sirve para hacer peticiones a la web
 from io import StringIO  # Necesario para convertir el string en un objeto legible
 #pip install requests
