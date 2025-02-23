@@ -30,6 +30,8 @@ if UIDs_asunto:
 else:
     print("No se encontraron mensajes con el asunto 'WordPress'.")
 
+
+# Queremos ver el contenido del mensaje
 if UIDs_asunto:
     try:
         # Recuperar el contenido del primer mensaje encontrado
@@ -43,9 +45,17 @@ if UIDs_asunto:
 else:
     print("No se encontraron mensajes con el asunto 'WordPress'.")
 
-mensaje.find("smtp.mailfrom=")
 
-# Me devuleve mensaje.find("smtp.mailfrom=") un -1 porque no lo encuentra
+mensaje.find('From: "WordPress.com" <')  # Me devuelve la posición donde se encuentra la cadena "Received: from" por ejemplo 333
+
+mensaje[mensaje.find('From: "WordPress.com" <'):mensaje.find('From: "WordPress.com" <')+100] 
+# Me devuelve la cadena "From: "WordPress.com" <" y los 100 caracteres siguientes
+
+contiene_correo = mensaje[mensaje.find('From: "WordPress.com" <'):mensaje.find('From: "WordPress.com" <')+100]
+info_correo = contiene_correo[len('From: "WordPress.com" <'):contiene_correo.find(">")]
+
+print(info_correo)
+
 
 # Cerrar la conexión
 conxGmail.logout()
