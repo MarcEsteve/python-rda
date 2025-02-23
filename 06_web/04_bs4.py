@@ -1,7 +1,6 @@
 import bs4 # Importamos la librería BeautifulSoup
 import requests # Importamos la librería requests
 import lxml # Importamos la librería lxml
-import json # Importamos la librería json
 import os # Importamos la librería os
 
 os.system("cls") # Limpiamos la consola
@@ -24,10 +23,11 @@ response = requests.get(url, headers=cabecera)
 soup = bs4.BeautifulSoup(response.text, 'lxml') # Parseamos el contenido de la página web
 
 # print(soup.prettify()) # Mostramos el contenido de la página web de forma estructurada
+print(soup) # Mostramos el título de la página web
 
 # Buscamos el precio del Tesla en la página web con el selector CSS
 elem = soup.select("#app > div.ma-LayoutBasic > div.ma-AdvertisementPageLayout.ma-AdvertisementPageLayout-justify--center > div.ma-AdvertisementPageLayout-center > div.ma-LayoutBasic-content.ma-AdDetail > div > main > article > section > div > div.ma-ContentAdDetail-priceWrapper > div > p > span > span")
-# print(elem) # Mostramos el <span> que contiene el precio del Tesla
+print(elem) # Mostramos el <span> que contiene el precio del Tesla
 elem[0].getText() # Obtenemos el texto del precio del Tesla con el método getText()
 elem[0].text.strip() # Obtenemos el precio del Tesla con el método text y eliminamos los espacios en blanco con strip()
 
