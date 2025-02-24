@@ -24,6 +24,8 @@ html_doc = """
 # Creamos un objeto BeautifulSoup
 soup = BeautifulSoup(html_doc, 'html.parser')
 
+#Parser significa que vamos a analizar el contenido HTML visualmente mediante un navegador web
+
 # Accedemos a las etiquetas del documento
 print(soup.title)  # <title>Web scraping example</title>
 print(soup.h1)  # <h1>Web scraping with BeautifulSoup</h1>

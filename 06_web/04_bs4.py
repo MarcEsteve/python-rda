@@ -1,5 +1,6 @@
-import bs4 # Importamos la librería BeautifulSoup
-import requests # Importamos la librería requests
+import bs4 # Importamos la librería BeautifulSoup 
+#pip install beautifulsoup4
+import requests # Importamos la librería requests, genera petición a la web
 import lxml # Importamos la librería lxml
 import os # Importamos la librería os
 
