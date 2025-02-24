@@ -1,4 +1,4 @@
-import imapclient
+import imapclient # pip install imapclient
 # connOutlook = imapclient.IMAPClient("imap-mail.outlook.com", ssl=True)
 # connOutlook.login("arthas_003@hotmail.com","pass")
 
@@ -14,6 +14,9 @@ import imapclient
 # OUTLOOK imap-mail.outlook.com
 # OFFICE365 outlook.office365.com
 conxGmail = imapclient.IMAPClient("imap.gmail.com", ssl=True)
+
+#  https://myaccount.google.com/apppasswords
+#  GMAIL Contraseña de aplicación
 conxGmail.login("marc.esteve.garcia@gmail.com","pass")
 
 
