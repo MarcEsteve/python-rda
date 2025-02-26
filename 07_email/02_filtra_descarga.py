@@ -19,6 +19,9 @@ for uid in UIDS_no_leidos:
     mail = con.fetch([uid], ['BODY[]', 'FLAGS'])
     print(mail)
 
+# Visualizar el primero
+mail = con.fetch([UIDS_no_leidos[0]], ['BODY[]', 'FLAGS'])
+
 
 # Cerrar la conexión
 con.logout()
