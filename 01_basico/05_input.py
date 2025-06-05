@@ -9,16 +9,16 @@ os.system("cls")
 # Para obtener datos del usuario se usa la función input()
 # La función input() recibe un mensaje que se muestra al usuario
 # y devuelve el valor introducido por el usuario
-nombre = input("Hola, ¿cómo te llamas?\n")
-print(f"Hola {nombre}, encantado de conocerte")
+# nombre = input("Hola, ¿cómo te llamas?\n")
+# print(f"Hola {nombre}, encantado de conocerte")
 
 # Ten en cuenta que la función input() devuelve un string
 # Así que si queremos obtener un número se debe convertir el string a un número
-# age = input("¿Cuántos años tienes?\n")
+age = input("¿Cuántos años tienes?\n")
 
-# print(f"Tendrás {int(age)+3} años dentro de 3 años")  # Esto no funcionará como esperamos
-# age = int(age)
-# print(f"Tienes {age} años")
+print(f"Tendrás {int(age)+3} años dentro de 3 años")  # Esto no funcionará como esperamos
+age = int(age)
+print(f"Tienes {age} años")
 
 # La función input() también puede devolver múltiples valores
 # Para hacerlo, el usuario debe separar los valores con una coma

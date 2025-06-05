@@ -15,14 +15,14 @@
 # print("Python", "es", "genial")
 
 # El parámetro 'sep' permite definir cómo se separan los elementos impresos
-print("Python", "es", "brutal", sep = "-")
+# print("Python", "es", "brutal", sep = "-")
 
 # El parámetro 'end' define lo que se imprime al final de la línea
-print("Esto se imprime", end = "\n") # Aquí, el 'end' tiene un salto de línea explícito
-print("en una línea") # Esto se imprime en la línea siguiente
+# print("Esto se imprime", end = "\n") # Aquí, el 'end' tiene un salto de línea explícito
+# print("en una línea") # Esto se imprime en la línea siguiente
 
 # También se pueden imprimir números directamente
-print(42)
+# print(42)
 
 # Ejemplo de cómo imprimir el símbolo de pulgadas (")
 # Si usamos comillas dobles dentro de un string con comillas dobles, se produce un error:

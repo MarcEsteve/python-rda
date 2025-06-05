@@ -9,13 +9,13 @@ os.system("cls")
 
 # Para asignar una variable solo hace falta poner el nombre de la variable y asignarle un valor
 my_name = "marc"
-print(my_name)  # Imprime el valor de la variable my_name
+print(my_name)  # Imprime el valor de la variable my_name myName MyName My_Name
 
 age = 32
 print(age)  # Imprime el valor de la variable age)
 
 # Reasignar un nuevo valor a una variable existente
-age = 38
+age = 39
 print(age)  # Ahora la variable age tiene el valor 39
 
 # Tipado dinámico: el tipo de dato se determine en tiempo de ejecución

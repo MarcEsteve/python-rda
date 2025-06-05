@@ -7,13 +7,14 @@
 ###
 
 import os
-os.system("cls")
+os.system("cls") # Limpia la consola para una mejor visualización
+# Para Mac o Linux, usa os.system("clear")
 
 print("Conversión de tipos")
 
 # Convertir una cadena que contiene un número a un entero y sumarlo con otro entero
 # print("100" + 2)  # Esto generaría un TypeError porque no se pueden sumar un entero con una cadena
-print(2 + int("100"))  # Convierte "100" a entero y suma 2. Resultado: 102
+# print(2 + int("100"))  # Convierte "100" a entero y suma 2. Resultado: 102
 
 # Convertir un entero a cadena para concatenarlo con otra cadena
 # print("100" + str(2))  # Convierte el número 2 a cadena y lo concatena. Resultado: "1002"
