@@ -36,7 +36,7 @@ os.system("cls") # Windows
 #   print("Eres menor de edad")
 
 # print("\n Sentencia condicional con elif")
-# nota = 10
+# nota = 7
 
 # Además de usar "if" y "else", podemos usar "elif" para determinar
 # múltiples condiciones, ten en cuenta que sólo se ejecutará el primer bloque
@@ -77,25 +77,25 @@ os.system("cls") # Windows
 
 # También tenemos el operador lógico "not"
 # que nos permite negar una condición
-# es_fin_de_semana = False
+es_fin_de_semana = False
 # JavaScript -> !
 # if not es_fin_de_semana:
-#   print("marc, venga que hay que impartir clase!")
+  # print("marc, venga que hay que impartir clase!")
 
 # Podemos anidar condicionales, uno dentro del otro
 # para determinar múltiples condiciones aunque
 # siempre intentaremos evitar esto para simplificar
-print("\n Anidar condicionales")
-edad = 20
-tiene_dinero = False
+# print("\n Anidar condicionales")
+# edad = 20
+# tiene_dinero = False
 
-if edad >= 18:
-  if tiene_dinero:
-    print("Puedes ir a la discoteca")
-  else:
-    print("Puedes entrar a la disco pero no comprar nada")
-else:
-  print("No puedes entrar a la disco")
+# if edad >= 18:
+#   if tiene_dinero:
+#     print("Puedes ir a la discoteca")
+#   else:
+#     print("Puedes entrar a la disco pero no comprar nada")
+# else:
+#   print("No puedes entrar a la disco")
 
 # Más fácil sería:
 # if edad < 18:
@@ -108,35 +108,36 @@ else:
 # Ten en cuenta que hay valores que al usarlos como condiciones
 # en Python son evaluados como verdaderos o falsos
 # por ejemplo, el número 5, es True
-numero = 5
-if numero: # True
-  print("El número no es cero")
+# numero = 5
+# if numero: # True
+#   print("El número no es cero")
 
 # Pero el número 0 se evalúa como False
-numero = 0
-if numero: # False
-  print("Aquí no entrará nunca")
+# numero = 0
+# if numero: # False
+#   print("Aquí no entrará nunca")
+# print("Aqui si se hace y llega hasta después del código")
 
 # También el valor vacío "" se evalúa como False
-nombre = ""
-if nombre:
-  print("El nombre no es vacío")
+# nombre = ""
+# if nombre:
+#   print("El nombre no es vacío")
 
 # ¡Ten cuidado con no confundir la asignación = con la comparación ==!
-numero = 3 # asignación
-es_el_tres = numero == 3 # comparación
+# numero = 3 # asignación
+# es_el_tres = numero == 3 # comparación True
 
-if es_el_tres:
-  print("El número es 3")
+# if es_el_tres:
+#   print("El número es 3")
 
 # A veces podemos crear condicionales en una sola línea usando
 # las ternarias, es una forma concisa de un if-else en una línea de código
-print("\nLa condición ternaria:")
+# print("\nLa condición ternaria:")
 # [código si cumple la condición] if [condicion] else [codigo si no cumple]
 # En JavaScript sería: [condicion] ? [código si cumple] : [código si no cumple]
-edad = 17
-mensaje = "Es mayor de edad" if edad >= 18 else "Es menor de edad"
-print(mensaje)
+# edad = 19
+# mensaje = "Es mayor de edad" if edad >= 18 else "Es menor de edad"
+# print(mensaje)
 
 ###
 # EJERCICOS

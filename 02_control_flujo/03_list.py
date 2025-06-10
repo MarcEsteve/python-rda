@@ -9,14 +9,16 @@ os.system("cls")
 
 # Creación de listas
 # print("\nCrear listas")
-# lista1 = [1, 2, 3, 4, 5] # lista de enteros
-# lista2 = ["manzanas", "peras", "plátanos"] # lista de cadenas
-# lista3 = [1, "hola", 3.14, True] # lista de tipos mixtos
+lista1 = [1, 2, 3, 4, 5] # lista de enteros
+lista2 = ["manzanas", "peras", "plátanos"] # lista de cadenas
+lista3 = [1, "hola", 3.14, True] # lista de tipos mixtos
 
-# lista_vacia = []
-# lista_de_listas = [[1, 2], ['calcetin', 4]]
+lista_vacia = []
+lista_de_listas = [[1, 2], ['calcetin', 4]]
+#       1   [0][0]    2 [0][1]
+# 'calcetin'[1][0]    4 [1][1]
 # print(lista_de_listas[1][0]) # calcetin
-# matrix = [[1, 2], [2, 3], [4, 5]]
+matrix = [[1, 2], [2, 3], [4, 5]]
 
 # print(lista1)
 # print(lista2)
@@ -27,10 +29,11 @@ os.system("cls")
 
 # Acceso a elementos por índice
 # print("\nAcceso a elementos por índice")
-# print(lista2[0])  # manzanas
-# print(lista2[1])  # peras
-# print(lista2[-1]) # plátanos
-# print(lista2[-2]) # peras
+lista2 = ["manzanas", "peras", "plátanos", "fresas"]
+print(lista2[0])  # manzanas
+print(lista2[1])  # peras
+print(lista2[-1]) # fresas
+print(lista2[-2]) # plátanos
 
 # print(lista_de_listas[1][0])
 
@@ -42,16 +45,15 @@ lista1 = [1, 2, 3, 4, 5]
 # print(lista1[:]) # [1, 2, 3, 4, 5] Copia de la lista
 
 
-
 # HAY MÁS MAGIA
 lista1 = [1, 2, 3, 4, 5, 6, 7, 8]
-# print(lista1[1:6:2]) # [2, 4, 6] # [inicio:fin:paso]
-# print(lista1[::2]) # para devolver índices pares
-# print(lista1[::-1]) # para devolver índices inversos
+print(lista1[1:6:2]) # [2, 4, 6] # [inicio:fin:paso]
+print(lista1[::2]) # para devolver índices pares
+print(lista1[::-1]) # para devolver índices inversos
 
 # Modificar una lista
-# lista1[0] = 20
-# print(lista1)
+lista1[0] = 20
+print(lista1)
 # Cuidado si no existe el índice, por ejemplo:
 # lista1[10] = 100 # Error
 # porque python no permite añadir elementos a una lista por índice
@@ -70,7 +72,7 @@ print(lista1)
 # Recuperar longitud de una lista
 print("Longitud de la lista", len(lista1))
 
-# En JavaScript, la longitud de un array se obtiene con .length
+# En JavaScript, la longitud de un array se obtiene con .lenght
 
 ###
 # EJERCICOS

@@ -4,12 +4,12 @@
 ###
 
 import os
-os.system("clear")
+os.system("cls")
 
 lista1 = ['a', 'b', 'c', 'd']
 print(lista1)
 # Añadir o insertar elementos a la lista
-
+# lista1[4]='e'
 lista1.append('e') # Añade un elemento al final
 print(lista1)
 
@@ -28,7 +28,8 @@ ultimo = lista1.pop() # Eliminar el último elemento de la lista y además te lo
 print(ultimo)
 print(lista1)
 
-lista1.pop(1) # Eliminar el segundo elemento de la lista (es el índice 1)
+letrab = lista1.pop(1) # Eliminar el segundo elemento de la lista (es el índice 1)
+print(letrab)
 print(lista1)
 
 # Eliminar por lo bestia
@@ -63,6 +64,7 @@ print(sorted_frutas)
 print("Ordenar una lista de cadenas de texto (mezclas mayúscula y minúscula)")
 frutas = ['manzana', 'Pera', 'Limón', 'manzana', 'pera', 'limón']
 frutas.sort(key=str.lower)
+# Case sensitive
 print(frutas)
 
 # Más cositas útiles

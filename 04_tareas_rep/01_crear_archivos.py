@@ -1,4 +1,6 @@
 import os
+os.system("cls") # Windows
+
 
 # Definir la carpeta donde se guardarán los archivos
 carpeta = "04_tareas_rep/archivos"
