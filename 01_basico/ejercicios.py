@@ -35,6 +35,8 @@ print("Crea variables para tu nombre, edad y altura.")
 print("Usa f-strings para imprimir una presentación.")
 
 # "Hola! Me llamo Marc y tengo 38 años, mido 1.75 metros"
+#name = "Marc"
+#age = 38
 
 ### Completa aquí
 
