@@ -2,6 +2,8 @@ import os
 os.system("cls")
 
 # 📌 Ejemplos de Tuplas en Python
+# Las tuplas son colecciones ordenadas e inmutables de elementos.
+# A diferencia de las listas, no se pueden modificar una vez creadas.
 
 # 1️⃣ Creación de una tupla
 mi_tupla = (1, 2, 3, 2, 4, 2)
