@@ -11,9 +11,12 @@ os.system("cls") # limpia la pantalla
 # Bucle con una simple condición
 # contador = 0
 
+# {llaves} [corchete] (parentesis)
+# indentación "tabulación o sangrado"
+
 # while contador <= 5:
-#   print(contador)
-#   contador += 1 # es super importante para evitar un bucle infinito
+#     print(contador)
+#     contador += 1 # es super importante para evitar un bucle infinito
 
 # utilizando la palabra break, para romper el bucle
 # print("\n Bucle while con break:")

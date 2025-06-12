@@ -21,7 +21,8 @@ persona = {
 }
 
 # para acceder a los valores
-# print(persona["nombre"])
+# print(persona["nombre"]) # "marc"
+# print(persona["edad"]) #25
 # print(persona["calificaciones"][2])
 # print(persona["socials"]["twitterx"])
 
@@ -38,11 +39,11 @@ persona = {
 # print(persona)
 
 # sobreescribir un diccionario con otro diccionario
-a = { "name": "marc", "age": 25 }
-b = { "name": "daniel", "es_estudiante": True }
-print(a)
-a.update(b)
-print(a)
+# a = { "name": "marc", "age": 25 }
+# b = { "name": "daniel", "es_estudiante": False }
+# print(a)
+# a.update(b)
+# print(a)
 
 # comprobar si existe una propiedad
 print("name" in persona) # False

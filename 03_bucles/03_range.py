@@ -6,12 +6,12 @@
 import os
 os.system("cls")
 
-print("\nrange():")
+# print("\nrange():")
 
 # Genera una secuencia de números del 0 al 9
 # for num in range(10):
 #   print(num)
-#   # Acciones
+  # Acciones
 
 # range(inicio, fin)
 # for num in range(5, 10):
@@ -30,13 +30,13 @@ print("\nrange():")
 # for num in range(0, 444):
 #   print(num)
 
-# nums = range(10)
+# nums = range(1,11)
 # list_of_nums = list(nums)
 # print(list_of_nums)
 
 # seria para hacerlo cinco veces
-for _ in range(5):
-  print("hacer cinco veces algo")
+# for _ in range(5):
+#   print("hacer cinco veces algo")
 
 # Mucho mejor que si lo hicieramos con un while
 # num = 0

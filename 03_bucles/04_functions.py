@@ -19,13 +19,13 @@ def nombre_de_la_funcion(parametro1, parametro2, ...):
 # def saludar():
 #   print("¡Hola!")
 
-# saludar()
+# saludar() # llamada a la función
 
 # # Ejemplo de una función con parámetro
 # def saludar_a(nombre):
 #   print(f"¡Hola {nombre}!")
 
-# saludar_a("marc")
+# saludar_a("marc") # argumento = "marc"
 # saludar_a("cristina")
 # saludar_a("fernando")
 
@@ -82,17 +82,17 @@ def nombre_de_la_funcion(parametro1, parametro2, ...):
 # print(sumar_numeros(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
 
 # Argumentos de clave-valor variable (**kwargs):
-def mostrar_informacion_de(**kwargs):
-  for clave, valor in kwargs.items():
-    print(f"{clave}: {valor}")
+# def mostrar_informacion_de(**kwargs):
+#   for clave, valor in kwargs.items():
+#     print(f"{clave}: {valor}")
 
-mostrar_informacion_de(nombre="marc", edad=25, sexo="gato")
-print("\n")
-mostrar_informacion_de(name="pedro", edad=21, country="Madagascar")
-print("\n")
-mostrar_informacion_de(nick="charly", es_sub=True, is_rich=True)
-print("\n")
-mostrar_informacion_de(super_name="juan", es_modo=True, gatos=40)
+# mostrar_informacion_de(nombre="marc", edad=25, sexo="gato")
+# print("\n")
+# mostrar_informacion_de(name="pedro", edad=21, country="Madagascar")
+# print("\n")
+# mostrar_informacion_de(nick="charly", es_sub=True, is_rich=True)
+# print("\n")
+# mostrar_informacion_de(super_name="juan", es_modo=True, gatos=40)
 
 # Ejercicios
 # Volver a los ejercicios anteriores
