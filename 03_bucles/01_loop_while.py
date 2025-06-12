@@ -56,6 +56,43 @@ os.system("cls") # limpia la pantalla
 # else:
 #   print("El bucle ha terminado")
 
+# contador = 0
+# while contador < 5:
+#     print(f"Contador es {contador}")
+#     contador += 1
+# else:
+#     print("El bucle while ha terminado de forma natural.")
+#     print(f"El valor final del contador es {contador}.")
+
+# numero = 0
+# while numero < 10:
+#     print(f"Número es {numero}")
+#     if numero == 3:
+#         print("¡Hemos alcanzado el 3! Rompiendo el bucle.")
+#         break  # Interrumpe el bucle
+#     numero += 1
+# else:
+#     print("Este mensaje no se imprimirá porque el bucle fue interrumpido por 'break'.")
+
+# print("El programa ha continuado después del bucle.")
+
+# Salida esperada:
+# Número es 0
+# Número es 1
+# Número es 2
+# Número es 3
+# ¡Hemos alcanzado el 3! Rompiendo el bucle.
+# El programa ha continuado después del bucle.
+
+# Salida esperada:
+# Contador es 0
+# Contador es 1
+# Contador es 2
+# Contador es 3
+# Contador es 4
+# El bucle while ha terminado de forma natural.
+# El valor final del contador es 5.
+
 # pedirle al usuario un número que tiene
 # que ser positivo si no, no le dejamos en paz
 # numero = -1
