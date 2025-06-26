@@ -9,6 +9,9 @@ pyautogui.typewrite("Hola, esto es una prueba")
 #Pulsar teclas de difícil acceso
 pyautogui.click(100, 100) 
 pyautogui.typewrite(["a", "b", "left", "left", "X", "Y"])
+# Pulsar teclas de difícil acceso con un tiempo entre pulsaciones
+pyautogui.click(100, 100)
+pyautogui.typewrite(["a", "b", "left", "left", "X", "Y"], interval=0.25)
 
 #Obtener todos los nombres de las teclas
 pyautogui.KEYBOARD_KEYS
