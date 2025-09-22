@@ -140,7 +140,7 @@ es_fin_de_semana = False
 # print(mensaje)
 
 ###
-# EJERCICOS
+# EJERCICIOS
 ###
 
 # Ejercicio 1: Determinar el mayor de dos números
