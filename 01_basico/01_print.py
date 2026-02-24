@@ -35,4 +35,4 @@
 # print("Esto es una \"pulgada\" dentro de un string con comillas dobles")
 
 # # ✅ Solución 3: Usar triple comillas para definir el string
-# print("""Esto es una "pulgada" dentro de un string con triple comillas""")
+print("""Esto es una "pulgada" dentro de un string con triple comillas""")
