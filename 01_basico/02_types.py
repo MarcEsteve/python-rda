@@ -11,7 +11,7 @@
 # print(type(7238424723784278934789239874))  # Python permite enteros de gran tamaño
 # print(7238424723784278934789239874)
 
-print("float:")  # Números decimales (de punto flotante)
+# print("float:")  # Números decimales (de punto flotante)
 print(type(3.14))  # Número con punto decimal
 print(type(1.0))  # También es considerado un float, aunque sea un número entero con punto decimal
 print(type(1e3))  # Notación científica (equivalente a 1000.0)
