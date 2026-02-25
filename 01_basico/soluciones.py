@@ -80,3 +80,48 @@ resultado = int(round(3.1416) / 2)
 print("Valor de PI (aproximado):", 3.1416)
 print("PI redondeado:", round(3.1416))
 print("División entera de PI redondeado entre 2:", resultado)
+
+print("--------------")
+
+print("\nEjercicio 6: Conversor de temperatura")
+print("Pide al usuario una temperatura en grados Celsius.")
+print("Convierte ese valor a Fahrenheit con la fórmula: F = (C * 9/5) + 32")
+print("Muestra ambos valores con un mensaje claro.")
+
+# Solución:
+celsius = float(input("Introduce la temperatura en °C: "))
+fahrenheit = (celsius * 9 / 5) + 32
+
+print(f"{celsius} °C equivalen a {fahrenheit:.2f} °F")
+
+print("--------------")
+
+print("\nEjercicio 7: Calculadora de propina")
+print("Pide el total de una cuenta y el porcentaje de propina.")
+print("Calcula cuánto es la propina y el total final a pagar.")
+print("Muestra los resultados con 2 decimales.")
+
+# Solución:
+total_cuenta = float(input("Introduce el total de la cuenta: "))
+porcentaje_propina = float(input("Introduce el porcentaje de propina: "))
+
+propina = total_cuenta * (porcentaje_propina / 100)
+total_final = total_cuenta + propina
+
+print(f"Propina: {propina:.2f} €")
+print(f"Total a pagar: {total_final:.2f} €")
+
+print("--------------")
+
+print("\nEjercicio 8: Validador de contraseña simple")
+print("Pide una contraseña al usuario.")
+print("Comprueba si tiene al menos 8 caracteres.")
+print("Muestra 'Contraseña válida' o 'Contraseña no válida'.")
+
+# Solución:
+contrasena = input("Introduce una contraseña: ")
+
+if len(contrasena) >= 8:
+	print("Contraseña válida")
+else:
+	print("Contraseña no válida")
